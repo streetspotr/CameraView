@@ -10,7 +10,7 @@ import android.view.ScaleGestureDetector;
  */
 public class PinchGestureFinder extends GestureFinder {
 
-    private final static float ADD_SENSITIVITY = 2f;
+    private final static float ADD_SENSITIVITY = 1f;
 
     private ScaleGestureDetector mDetector;
     private boolean mNotify;
